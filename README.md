@@ -1,4 +1,4 @@
-![ChroManticore](readme-cover-image.png)
+![ChroManticore](https://raw.githubusercontent.com/TaXi0k/chromanticore/master/readme-cover-image.png)
 
 > *„Consuming ChroManticore applies the Hydration status, increasing Stamina Regen Rate by 5% for 450 seconds.‟*
 
@@ -70,6 +70,6 @@ Both functions return [`FormattingError`] if a styled block is malformed (e.g. a
 
 # License
 
-Copyright 2026 TaXi0k
+Copyright 2026 TaXi0k 
 
 Licensed under Apache 2.0, for more info chech [LICENSE](LICENSE).
