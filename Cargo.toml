@@ -1,7 +1,13 @@
 [package]
+edition = "2024"
 name = "chromanticore"
 version = "0.1.0"
-edition = "2024"
+authors = ["TaXi0k"]
+exclude = ["readme-cover-image.png"]
+description = "Small inline text styling library."
+readme = "README.md"
+license = "Apache-2.0"
+repository = "https://github.com/TaXi0k/chromanticore"
 
 [dependencies]
 owo-colors = "4.3.0"
