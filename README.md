@@ -24,7 +24,7 @@ println!("{out}");
 ```
 
 Colors follow the user's terminal theme. To use a fixed palette,
-pass a [`theme::Theme`] to [`themed_format_text`]:
+pass a `theme::Theme` to `themed_format_text`:
 
 ```rs
 use chromanticore::{themed_format_text, theme};
@@ -58,15 +58,15 @@ format_text("{[RED,GREEN]last color wins}").unwrap();
 
 ## Color output
 
-[`format_text`] emits 16-color ANSI escapes, so colors follow the user's terminal palette. [`themed_format_text`] emits 24-bit truecolor instead, so colors are fixed regardless of terminal settings.
+`format_text` emits 16-color ANSI escapes, so colors follow the user's terminal palette. `themed_format_text` emits 24-bit truecolor instead, so colors are fixed regardless of terminal settings.
 
 ## Themes
 
-[`themed_format_text`] takes a [`theme::Theme`]. See the [`theme`] module for built-in presets and how to build your own.
+`themed_format_text` takes a `theme::Theme`. See the `theme` module for built-in presets and how to build your own.
 
 ## Errors
 
-Both functions return [`FormattingError`] if a styled block is malformed (e.g. a missing `]`, an empty style list, or no text to style).
+Both functions return `FormattingError` if a styled block is malformed (e.g. a missing `]`, an empty style list, or no text to style).
 
 # License
 
